@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------
+# Updated version of .gitignore file for Android Studio projects
+# Starting poinbt was:
+#   http://envyandroid.com/gitignore-android-studio/
+# ---------------------------------------------------------------
+
+
+# -----------------------------------------
+# Big useless files from various sources
+# -----------------------------------------
+
+# Nastry Apple Mac files brought in by MDs and Designers ;-)
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/  
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# -----------------------------------------
+# Eclipse project files
+# -----------------------------------------
+.classpath
+.project
+
+# -----------------------------------------
+# Android Studio specific files
+# -----------------------------------------
+.idea/
+.gradle
+
+# build folder *anywhere* in the tree recursively
+build/
+
+/*/local.properties
+/*/out
+/*/*/build
+build/*
+captures/*
+app/build/*
+backend/build/*
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
